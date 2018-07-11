@@ -20,8 +20,8 @@ def _glideVersion = _ext.has('glideVersion') ? _ext.glideVersion : '4.7.1'
 def _excludeAppGlideModule = _ext.has('excludeAppGlideModule') ? _ext.excludeAppGlideModule : false
 
 android {
-    compileSdkVersion _compileSdkVersion
-    buildToolsVersion _buildToolsVersion
+    compileSdkVersion 26
+    buildToolsVersion '26.0.3
 
     sourceSets {
         main {
